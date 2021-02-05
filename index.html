@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="weather.js"></script>
+</head>
+<body>
+    <header>Enter a city:</header>
+    <form id="location">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city"><br>
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state"><br>
+        <input type="submit">
+    </form>
+        <strong><u><div id="city-output"></div></u></strong>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th><div id="day0dayandtime"></div></th>
+                    <th><div id="day8dayandtime"></div></th>
+                    <th><div id="day16dayandtime"></div></th>
+                    <th><div id="day24dayandtime"></div></th>
+                    <th><div id="day32dayandtime"></div></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><div id="day0description"></div><div id="day0icon"></div></td>
+                    <td><div id="day8description"></div><div id="day8icon"></div></td>
+                    <td><div id="day16description"></div><div id="day16icon"></div></td>
+                    <td><div id="day24description"></div><div id="day24icon"></div></td>
+                    <td><div id="day32description"></div><div id="day32icon"></div></td>
+                </tr>
+                <tr>
+                    <td><div id="day0temp"></div></td>
+                    <td><div id="day8temp"></div></td>
+                    <td><div id="day16temp"></div></td>
+                    <td><div id="day24temp"></div></td>
+                    <td><div id="day32temp"></div></td>
+                </tr>
+                <tr>
+                    <td><div id="day0feelslike"></div></td>
+                    <td><div id="day8feelslike"></div></td>
+                    <td><div id="day16feelslike"></div></td>
+                    <td><div id="day24feelslike"></div></td>
+                    <td><div id="day32feelslike"></div></td>
+                </tr>
+                <tr>
+                    <td><div id="day0windspeed"></div> </td>
+                    <td><div id="day8windspeed"></div> </td>
+                    <td><div id="day16windspeed"></div> </td>
+                    <td><div id="day24windspeed"></div> </td>
+                    <td><div id="day32windspeed"></div> </td>
+                </tr>
+                <tr>
+                    <td><div id="day0prob"></div></td>
+                    <td><div id="day8prob"></div></td>
+                    <td><div id="day16prob"></div></td>
+                    <td><div id="day24prob"></div></td>
+                    <td><div id="day32prob"></div></td>
+                </tr>
+            </tbody>
+        </table>  
+    </div>
+</body>
+</html>

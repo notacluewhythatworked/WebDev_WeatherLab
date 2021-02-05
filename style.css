@@ -1,0 +1,39 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: #191716;
+}
+
+body {
+    color: #e0e2db;
+    font-size: 20px;
+    padding: 10px;
+}
+
+table td {
+    padding: 5px;
+    width: 200px;
+}
+
+table th {
+    text-align: center;
+    color: #e6af2e;
+}
+
+table {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    padding-bottom: 30px;
+}
+
+#city-output {
+    text-align: center;
+    color: #3d348b;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
